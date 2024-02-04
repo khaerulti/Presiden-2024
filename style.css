@@ -105,6 +105,14 @@ section::after {
     text-align: center;
 }
 
+.container .card .content .imgBx{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: fill;
+	background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSLFTFhmds0n7V_XafKPUPgUdMVhGour4QZ-bdJerQI0TkErosMnYVvZ9rnnDqsXq7YHZtdbCcFIcRiw7PwfDTBn1M48qsQTQZXlcJIgTIpwyD6bXgn4qkYO7SAQ7HMM6oM9urv4PKFeefNmSvpopqUxYhqqS4y3uQoyvbMU3TDrgy10lTU_HGUadZDm5U/s2048/20231115_005826.jpg);
+}
+
 .container .card:hover .content .imgBx{
     box-shadow: 0 0 10px rgb(0, 0, 0);
 }
@@ -116,7 +124,7 @@ section::after {
 .container .card .content .imgBx {
 	position: relative;
     margin-top: 20px;
-	width: 70%;
+	width: 75%;
 	height: 900px;
 	overflow: hidden;
     border: 1px white solid;
@@ -132,6 +140,8 @@ section::after {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	
+	
 }
 
 .container .card .content .contentBx h3 {
@@ -148,9 +158,13 @@ section::after {
 
 .container .card .sci {
 	position: absolute;
-	bottom: 50px;
+	left: 25%;
+	bottom: -65px;
 	display: flex;
-    
+	justify-content: center;
+	text-align: center;
+	opacity: 1;
+
 }
 
 .container .card .sci li {
