@@ -87,19 +87,21 @@ section::after {
     filter: drop-shadow(0 0 2px rgb(0, 0, 0));
 } 
 .container .card .content p{
-    padding: 50px 40px;
-    line-height: 40px;
+    padding: 50px 100px;
+    line-height: 60px;
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: justify;
     text-transform: capitalize;
     justify-items: center;
     display: flex;
+    font-size: 1.8em;
     flex-direction: column;
     
 }
 .container .card .content p span{
     padding: 40px;
+    font-size: 2em;
     text-align: center;
 }
 
@@ -108,13 +110,6 @@ section::after {
 }
 .container .card:hover .content{
 	transform: translateY(-40px);
-    
-}
-.container .card:hover .content p{
-	text-align: justify;
-    color: white;
-    text-transform: capitalize;
-    
     
 }
 
@@ -150,11 +145,6 @@ section::after {
 	line-height: 1.1em;
 }
 
-.container .card .content .contentBx h3 span {
-	font-size: 12px;
-	font-weight: 300;
-	text-transform: initial;
-}
 
 .container .card .sci {
 	position: absolute;
