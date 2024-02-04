@@ -116,8 +116,8 @@ section::after {
 .container .card .content .imgBx {
 	position: relative;
     margin-top: 20px;
-	width: 80%;
-	height: 600px;
+	width: 70%;
+	height: 900px;
 	overflow: hidden;
     border: 1px white solid;
     border-radius: 10px;
