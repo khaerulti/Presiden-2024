@@ -44,11 +44,12 @@ section::after {
 	align-items: center;
 	flex-direction: column;
 	margin: 40px 0;
+    width: 100%;
 }
 
 .container .card {
 	position: relative;
-	width: 500px;
+    width: 80%;
 	height: 100%;
 	background: rgba(255, 255, 255, 0.05);
 	margin: 20px;
